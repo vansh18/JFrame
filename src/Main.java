@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Main
 {
@@ -15,7 +16,7 @@ public class Main
         frame.setVisible(true);
         ImageIcon image = new ImageIcon("LOGO.png");
         frame.setIconImage(image.getImage()); // Change icon of frame
-//        frame.getContentPane().setBackground(new Color(5,10,25)); // Changes the color
+        frame.getContentPane().setBackground(new Color(5,10,25)); // Changes the color
         frame.add(label);
         ImageIcon img = new ImageIcon("LOGO.png");
         label.setIcon(img);
