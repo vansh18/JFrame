@@ -44,7 +44,6 @@ public class key extends JFrame implements KeyListener {
         }
 
     }
-
     @Override
     public void keyPressed(KeyEvent e) {
         //keyPressed = Invoked when a physical key is pressed down. Uses KeyCode, int output
