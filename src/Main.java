@@ -21,7 +21,7 @@ public class Main
 //        button.setSize(20,20);
 //        frame.add(button);
 
-        new Btn();
-
+//      new Btn();
+        new key();
     }
 }

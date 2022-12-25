@@ -23,7 +23,7 @@ public class Btn extends JFrame implements ActionListener
     {
         if (e.getSource() == button)
         {
-            System.out.println("I am clicked");
+            System.out.println("Clicckk Me!");
         }
     }
 }
