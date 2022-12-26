@@ -20,12 +20,13 @@ public class lab12_ques1
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the start number: ");
-        min = sc.nextInt();
-        System.out.println("Enter the end number: ");
-        max = sc.nextInt();
         try
         {
+            System.out.println("Enter the start number: ");
+            min = sc.nextInt();
+            System.out.println("Enter the end number: ");
+            max = sc.nextInt();
+
             check(min,max);
             for (int i = min; i <= max; i++)
             {
@@ -37,10 +38,11 @@ public class lab12_ques1
         }
         catch (Exception e)
         {
-            System.out.println(e);
+            System.out.println("Error found: " + e);
         }
         finally
         {
+            sc.close();
             System.out.println("\nProgram ended");
         }
     }
