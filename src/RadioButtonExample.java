@@ -27,10 +27,12 @@ class RadioButtonExample extends JFrame
     }
     void option()
     {
-        if(rb1.isSelected()){
+        if(rb1.isSelected())
+        {
             JOptionPane.showMessageDialog(this,"You are Male.");
         }
-        if(rb2.isSelected()){
+        if(rb2.isSelected())
+        {
             JOptionPane.showMessageDialog(this,"You are Female.");
         }
     }
